@@ -1,0 +1,21 @@
+
+div.post{
+    margin-top: 2em;
+    display: flex;
+  }
+  div.autorsAvatar{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    background-image: url('https://krasivyepricheski.com/sites/default/files/pricheski/3-6/ec7736b20e1a.jpg');
+    background-size: cover;
+    background-position: top;
+    border: solid #1b3890 2px;
+  }
+  div.postContent{
+    margin-left: 2em;
+    font-style: italic;
+  }
+  div.postText::after{
+    content: "...";
+  }

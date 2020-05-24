@@ -1,0 +1,15 @@
+
+img.logo{
+  margin: 6px;
+  width: 150px;
+  height: 150px;
+  margin-left: 2vw;
+  position: absolute;
+  top: 0;
+  box-shadow: 1px 0px 12px 3px black;
+}
+header.header{
+  grid-area: header;
+  background-color: #1b3890;
+  display: flex;
+}

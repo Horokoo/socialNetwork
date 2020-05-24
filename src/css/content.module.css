@@ -1,0 +1,4 @@
+
+div.content{
+    width: calc(100% - 2vw);
+  }

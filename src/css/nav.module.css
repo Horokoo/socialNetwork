@@ -1,0 +1,16 @@
+
+nav.nav{
+    grid-area: nav;
+    display: grid;
+    padding-top: 100px;
+    font-size: 120%;
+    font-family: 'Gothic';
+    font-weight: bold;
+    grid-template-rows: repeat(4, 40px) 100px;
+  }
+  div.paragraphOfMenu{
+    margin-left: 2vw;
+  }
+  div.settings{
+    align-self: end;
+  }
